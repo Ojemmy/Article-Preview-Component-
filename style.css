@@ -96,8 +96,8 @@ body {
 }
 
 .share i{
-    background-color: var(--Light-Grayish-Blue);
     color: var(--Very-Dark-Grayish-Blue);
+    background-color: var(--Light-Grayish-Blue);
     width: 1.9rem;
     height: 1.9rem;
     border-radius: 50%;
@@ -108,8 +108,8 @@ body {
 }
 
 .avatar .share i:hover {
-    background-color: var(--Very-Dark-Grayish-Blue);
     color: var(--Light-Grayish-Blue);
+    background-color: var(--Very-Dark-Grayish-Blue);
 }
 
 .socials {
@@ -140,18 +140,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
 }
 
-.socials .share-icon .links li {
-    list-style: none;
-    padding-right: 1rem;
-}
-
-.socials .share-icon .links li a {
-    text-decoration: none;
-}
-
-.socials .share-icon .links li i{
+.socials .share-icon .links i{
     color: white;
     width: 1.4rem;
     height: 1.4rem;
@@ -162,7 +154,7 @@ body {
     transition: 1s ease;
 }
 
-.socials .share-icon .links li i:hover {
+.socials .share-icon .links i:hover {
     color: var(--Grayish-Blue);
     background-color: white;
 }
@@ -175,7 +167,7 @@ body {
     display: flex;
 }
 
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 55rem) {
     .page {
         grid-template-columns: 25rem auto;
         grid-template-areas: 'hero-img text-area' 'hero-img socials';
@@ -219,7 +211,7 @@ body {
         position: absolute;
         top: 100%;
         left: 70%;
-        margin-left: -10px;
+        margin-left: -0.625rem;
         border-width: 10px;
         border-style: solid;
         border-color: var(--Very-Dark-Grayish-Blue) transparent transparent transparent;
@@ -233,7 +225,7 @@ body {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
     .socials {
         width: 15rem;
         height: 4rem;
@@ -242,17 +234,12 @@ body {
     }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 71.9rem) {
     .socials {
         bottom: 55%;
         left: 66%;
     }
 }
-
-
-
-
-
 
 
 .attribution {
